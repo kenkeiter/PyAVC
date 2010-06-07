@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /tmp/pyavc_install
+sudo /usr/bin/python setup.py install --force
+rm -rf /tmp/pyavc_install
